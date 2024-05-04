@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.middle{
+  display: flex;
+  flex-direction: row;
+}
+.input{
+  border: none;
+      width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+.input:focus{
+ outline: none; /* Remove outline when focused */
+  border-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.start{
+  margin-right: 10px;
+}
